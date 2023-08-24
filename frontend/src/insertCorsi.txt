@@ -1,0 +1,657 @@
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Teorie e metodologie dell e-learning e della media education')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze dell educazione e della formazione')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze dell educazione e della formazione')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Programmazione e gestione dei servizi educativi')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze dell educazione degli adulti e della formazione continua')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze pedagogiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in scienze pedagogiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze della formazione primaria')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in scienze dell educazione degli adulti e della formazione continua')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze della formazione primaria')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in programmazione e gestione dei servizi educativi e formativi')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze della formazione primaria')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze della Formazione Primaria - Quadriennale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze della  formazione primaria')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze  della formazione primaria')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze dello spettacolo e produzione multimediale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in scienze dello spettacolo e della produzione multimediale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Disegno industriale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Disegno industriale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in teorie e metodi del disegno industriale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Design')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in storia dell arte')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze dei beni culturali')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Beni culturali')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Storia dell arte')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in musicologia e beni musicali')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Musicologia e beni musicali (abilitazione A032)')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Musicologia e beni musicali')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze e tecnologie delle arti figurative, della musica, dello spettacolo e della moda')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Discipline delle arti figurative, della musica, dello spettacolo e della moda')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in scienze delle religioni')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze delle religioni')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in storia medievale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in storia moderna')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in archeologia')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in storia contemporanea')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in storia antica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze storiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze storiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Storia')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Archeologia')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Conservazione e restauro dei beni culturali')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Filosofia')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in storia della filosofia')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze filosofiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Filosofia')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in filosofia e storia della scienza')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in filosofia teoretica, morale, politica ed estetica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in interpretariato di conferenza')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in lingue e letterature afroasiatiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in lingue straniere per la comunicazione internazionale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Mediazione linguistica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in lingue e letterature moderne euroamericane')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in linguistica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in traduzione letteraria e in traduzione tecnico-scientifica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Lingue e culture moderne')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze della mediazione linguistica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Lingue e letterature dell Africa e dell Asia')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Lingue e letterature moderne europee e americane')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Lingue moderne per la comunicazione e la cooperazione internazionale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Linguistica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Traduzione specialistica e interpretariato')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Lingue e letterature moderne europee e americane (abilitazione A045)')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Lingue e culture moderne')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Lettere')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Filologia moderna (abilitazione A043)')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in filologia e letterature dell antichita')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in filologia moderna')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in lingua e cultura italiana')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Lettere')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Filologia moderna')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Filologia, letterature e storia dell antichità')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in conservazione dei beni scientifici e della civilta industriale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze dell economia')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze economiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze economiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in scienze dell economia')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze dell amministrazione')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze dell amministrazione e dell organizzazione')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Relazioni internazionali')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in studi europei')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze della politica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze sociali per la cooperazione, lo sviluppo e la pace')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze politiche e delle relazioni internazionali')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in scienze della politica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze per la cooperazione allo sviluppo')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in scienze per la cooperazione allo sviluppo')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Studi europei')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze politiche e delle relazioni internazionali')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in scienze delle pubbliche amministrazioni')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze sociali per la cooperazione, lo sviluppo e la pace')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in relazioni internazionali')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze delle pubbliche amministrazioni')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze e tecniche psicologiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze e tecniche psicologiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in scienze cognitive')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Psicologia')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in psicologia')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze cognitive')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Geografia')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in geografia')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in sociologia')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in metodi per la ricerca empirica nelle scienze sociali')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze geografiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze criminologiche e della sicurezza')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Antropologia culturale ed etnologia')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze criminologiche applicate all investigazione e alla sicurezza')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Sociologia e ricerca sociale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in antropologia culturale ed etnologia')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze geografiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze sociologiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Sociologia')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze della difesa e della sicurezza')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche nelle scienze della difesa e della sicurezza')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze della difesa e della sicurezza')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze della difesa e della sicurezza')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Informazione e sistemi editoriali')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze della comunicazione pubblica, d impresa e pubblicità')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in editoria, comunicazione multimediale e giornalismo')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Teorie della comunicazione')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze della comunicazione')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze della comunicazione')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in scienze della comunicazione sociale e istituzionale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in teoria della comunicazione')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in informatica per le discipline umanistiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in archivistica e biblioteconomia')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Metodologie informatiche per le discipline umanistiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Archivistica e biblioteconomia')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in finanza')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Finanza')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze economico-aziendali')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in scienze economico-aziendali')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze dell economia e della gestione aziendale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze dell economia e della gestione aziendale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in pubblicita e comunicazione d impresa')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in scienze economiche per l ambiente e la cultura')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze economiche  e sociali della gastronomia')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze economiche per l ambiente e la cultura')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze, culture e politiche della gastronomia')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze dei servizi giuridici')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze giuridiche - Quinquennale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Magistrali in giurisprudenza')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze giuridiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in giurisprudenza')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze Giuridiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze dei servizi giuridici')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in teoria e tecniche della normazione e dell informazione giuridica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in biologia')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze biologiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze biologiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Biologia')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Biotecnologie agrarie')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Biotecnologie industriali')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in biotecnologie agrarie')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Biotecnologie')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Biotecnologie')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in biotecnologie mediche, veterinarie e farmaceutiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Biotecnologie mediche, veterinarie e farmaceutiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in biotecnologie industriali')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in scienze della nutrizione umana')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze della nutrizione umana')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in scienze e tecnologie per l ambiente e il territorio')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze e tecnologie per l ambiente e la natura')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in scienze della natura')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze della natura')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze e tecnologie per l ambiente e il territorio')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze e tecnologie per l ambiente e la natura')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze e tecnologie farmaceutiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Diagnostica per la conservazione dei beni culturali')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in scienze e tecnologie della chimica industriale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze e tecnologie chimiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Tecnologie per la conservazione e il restauro dei beni culturali')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze e tecnologie farmaceutiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze e tecnologie chimiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in scienze chimiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze chimiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze per la conservazione dei beni culturali')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in conservazione e restauro del patrimonio storico-artistico')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze e tecnologie della chimica industriale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze della Terra')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze geologiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze geofisiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in scienze geologiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in scienze geofisiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze e tecnologie geologiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze e tecnologie fisiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in fisica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in scienze dell universo')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze dell universo')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Fisica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze e tecnologie fisiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze e tecnologie della navigazione')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze e tecnologie della navigazione marittima e aerea')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in scienze e tecnologie dei sistemi di navigazione')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze e tecnologie della navigazione')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze matematiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in matematica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Matematica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze matematiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze statistiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze statistiche attuariali e finanziarie')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze statistiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in metodi per l analisi valutativa dei sistemi complessi')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in statistica demografica e sociale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in statistica economica, finanziaria ed attuariale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in statistica per la ricerca sperimentale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Statistica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Classe di abilitazione A059 - Matematica e scienze nella scuola secondaria di I grado')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Informatica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in informatica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze e tecnologie informatiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze e tecnologie informatiche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Sicurezza informatica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in tecniche e metodi per la societa dell informazione')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Tecniche e metodi per la societa dell informazione')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Classe di abilitazione A033 - Tecnologia')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Ingegneria chimica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in ingegneria chimica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in ingegneria energetica e nucleare')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in ingegneria elettrica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Ingegneria elettrica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Ingegneria energetica e nucleare')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in ingegneria delle telecomunicazioni')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Ingegneria elettronica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Ingegneria dell informazione')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in ingegneria elettronica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Ingegneria dell automazione')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in ingegneria informatica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Ingegneria dell informazione')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Ingegneria delle telecomunicazioni')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Ingegneria informatica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in ingegneria dell automazione')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Ingegneria meccanica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in ingegneria meccanica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Ingegneria navale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in ingegneria aerospaziale e astronautica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in ingegneria navale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Ingegneria aerospaziale e astronautica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in ingegneria biomedica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in ingegneria gestionale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Ingegneria della sicurezza')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in modellistica matematico-fisica per l ingegneria')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Modellistica matematico-fisica per l ingegneria')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Professioni tecniche industriali e dell’informazione')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Ingegneria industriale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Ingegneria gestionale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Ingegneria industriale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Ingegneria biomedica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienza e ingegneria dei materiali')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in scienza e ingegneria dei materiali')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Architettura e ingegneria edile-architettura (quinquennale)')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in architettura e ingegneria edile')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze dell architettura e dell ingegneria edile - Ciclo Unico')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Professioni tecniche per l edilizia e il territorio')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Architettura e ingegneria edile-architettura')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Urbanistica e scienze della pianificazione territoriale e ambientale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in conservazione dei beni architettonici e ambientali')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze dell architettura e dell ingegneria edile')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze della pianificazione territoriale, urbanistica, paesaggistica e ambientale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze dell architettura')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Pianificazione territoriale urbanistica e ambientale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in pianificazione territoriale urbanistica e ambientale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Conservazione dei beni architettonici e ambientali')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in architettura del paesaggio')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Architettura del paesaggio')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in ingegneria per l ambiente e il territorio')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Ingegneria per l ambiente e il territorio')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Ingegneria civile')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Ingegneria dei sistemi edilizi')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Ingegneria civile e ambientale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in ingegneria civile')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze e tecniche dell edilizia')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Ingegneria civile e ambientale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze zootecniche e tecnologie delle produzioni animali')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze zootecniche e tecnologie  animali')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in scienze e tecnologie agroalimentari')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze e tecnologie alimentari')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze e tecnologie alimentari')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in scienze e tecnologie agrozootecniche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze e tecnologie zootecniche e delle produzioni animali')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze e tecnologie agrarie')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in scienze e tecnologie agrarie')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in scienze e gestione delle risorse rurali e forestali')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze e tecnologie forestali ed ambientali')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in medicina veterinaria')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Medicina veterinaria')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Professioni tecniche agrarie, alimentari e forestali')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze e tecnologie agrarie, agroalimentari e forestali')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze e tecnologie agrarie e forestali')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in odontoiatria e protesi dentaria')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Odontoiatria e protesi dentaria')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in medicina e chirurgia')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Medicina e chirurgia')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze infermieristiche e ostetriche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche nelle scienze infermieristiche e ostetriche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Professioni sanitarie, infermieristiche e professione sanitaria ostetrica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Professioni sanitarie, infermieristiche e professione sanitaria ostetrica')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Professioni sanitarie tecniche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze delle professioni sanitarie tecniche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche nelle scienze delle professioni sanitarie tecniche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Professioni sanitarie tecniche')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in scienze e tecniche delle attivita motorie preventive e adattative')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche nelle scienze delle professioni sanitarie della riabilitazione')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Professioni sanitarie della riabilitazione')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Professioni sanitarie della prevenzione')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze riabilitative delle professioni sanitarie')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze e tecniche delle attività motorie preventive e adattate (abilitazione A030)')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Professioni sanitarie della riabilitazione')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Professioni sanitarie della prevenzione')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze e tecniche delle attività motorie preventive e adattate')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze delle professioni sanitarie della prevenzione')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche nelle scienze delle professioni sanitarie della prevenzione')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Farmacia e farmacia industriale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in farmacia e farmacia industriale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze del servizio sociale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Servizio sociale e politiche sociali')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in programmazione e gestione delle politiche e dei servizi sociali')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Servizio sociale')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze e tecniche dello sport')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Organizzazione e gestione dei servizi per lo sport e le attività motorie')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in scienze e tecnica dello sport')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze e tecniche dello sport (abilitazione A030)')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze delle attivita motorie e sportive')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze delle attività motorie e sportive')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in organizzazione e gestione dei servizi per lo sport e le attivita motorie')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze del turismo')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Progettazione e gestione dei sistemi turistici')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Scienze del turismo')
+
+INSERT INTO [dbo].[CorsoDiStudi] ([NomeCorso]) VALUES  ('Specialistiche in progettazione e gestione dei sistemi turistici')

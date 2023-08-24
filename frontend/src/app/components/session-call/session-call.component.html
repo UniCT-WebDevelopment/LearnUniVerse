@@ -1,0 +1,22 @@
+<div class="content" style="height: calc(100vh - 66px); background-color: rgb(32,33,36)">
+  <div class="videos d-flex align-items-center justify-content-center p-2 flex-column flex-md-row">
+    <video class="rounded-4" #localVideo id="localVideo" autoplay></video>
+    <div *ngIf="!peerConnection" class="rounded-4 p-3" style="background-color: rgb(60,64,67); color: white">
+      In attesa...
+    </div>
+    <video class="rounded-4" #remoteVideo id="remoteVideo" autoplay *ngIf="peerConnection"></video>
+  </div>
+
+  <div class="position-absolute bottom-0 w-100">
+    <div class="d-flex justify-content-center mb-3">
+      <div class="call-button mx-2" (click)="shareScreen()" style="background-color: rgb(60,64,67);">
+        <i *ngIf="!shareScreenFlag" class="bi bi-display"></i>
+        <i *ngIf="shareScreenFlag" class="bi bi-display-fill"></i>
+            </div>
+      <div class="call-button mx-2 bg-danger" routerLink="/corsi">
+        <i class="bi bi-telephone-x"></i>
+      </div>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,54 @@
+<div class="container">
+
+    <div id="textSelectdiv row  justify-content-center col-md-6 col-sm-10 col-12">
+        <label class="form-label select-label">Categoria: </label>
+
+        <select id="textSelect" class="form-select form-select-sm" [(ngModel)]="corsoSelected" (ngModelChange)="onCorsoSelectChange()">
+            <option *ngFor="let corso of corsiDiStudi" [value]="corso.id">{{corso.nomeCorso}}</option>
+        </select>
+    </div>
+
+    <div *ngIf="isCorsoSelected" id="textSelectdiv row  justify-content-center col-3 " >
+        <label class="form-label select-label">Materia: </label>
+
+        <select id="textSelect" class="form-select form-select-sm" [(ngModel)]="materiaSelected" (ngModelChange)="onMateriaSelectChange()">
+            <option *ngFor="let materia of materie" [value]="materia.id">{{materia.nome}}</option>
+            <option value="customOption">Other</option>
+        </select>
+    </div>
+
+    <div id="inputDiv" class="form-outline" [hidden]="!inputVisible">
+        <input type="text" id="form12" class="form-control" [(ngModel)]="materiaSelected" (blur)="hideInput()"
+            [disabled]="!inputVisible" />
+    </div>
+
+    <div class="row  justify-content-center  " style="margin-top:30px; margin-bottom:30px">
+        <dx-data-grid id="gridContainer" [dataSource]="dataSource" [allowColumnReordering]="true" [showBorders]="true">
+            <dxo-paging [enabled]="true"></dxo-paging>
+            <dxo-editing mode="row" [allowUpdating]="true" [allowDeleting]="true" [allowAdding]="true">
+            </dxo-editing>
+
+            <dxi-column dataField="NumLezione" caption="Numero Lezione"></dxi-column>
+            <dxi-column dataField="ArgomentoLezione" caption="Argomento"></dxi-column>
+            <dxi-column caption="File Upload" cellTemplate="cellTemplate"></dxi-column>
+            <div *dxTemplate="let data of 'cellTemplate'">
+                 <dx-file-uploader
+                  #fileUploader
+                  [multiple]="false"
+                  accept="video/*"
+                  uploadMode="instantly"
+                  name="file"
+                  [uploadUrl]="apiUrl + '/Syllabus/UploadFile/' + userClaims?.id"
+                  (onValueChanged)="onValueChanged($event)"
+                  (onUploaded)="onUploaded($event)"
+                  (onUploadError)="onUploadError($event)"
+                ></dx-file-uploader>
+               </div>
+        </dx-data-grid>
+
+ 
+    </div>
+
+    <button class="btn btn-primary w-100 text-center" *ngIf="isMateriaSelected && !isEditing" (click)="CreaCorso()">Crea Corso</button>
+    <button class="btn btn-primary w-100 text-center" *ngIf="isMateriaSelected && isEditing" (click)="ModificaCorso()">Modifica Corso</button>
+</div>

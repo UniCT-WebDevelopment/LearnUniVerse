@@ -1,0 +1,117 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-6 col-sm-10 col-12">
+      <div class="card card-container">
+        <p class="m-0 w-100 mb-3 text-center">
+          <img src="../../assets/MainLogo.png" width="180">
+        </p>
+        <h3 class="pb-2">Registrati</h3>
+        <div class="text-center mb-2">step {{currentStep}} su 2</div>
+
+
+        <form [formGroup]="Step1Form" *ngIf="currentStep == 1">
+
+          <div class="mb-3">
+            <div class="form-floating">
+              <input class="form-control" placeholder="Nome" formControlName="nome">
+              <label for="nameLabel">Nome</label>
+            </div>
+          </div>
+          <div class="mb-3">
+            <div class="form-floating">
+              <input class="form-control" placeholder="Cognome" formControlName="cognome">
+              <label for="surnameLabel">Cognome</label>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <div class="form-floating">
+              <input class="form-control" type="date" placeholder="Data di Nascita" formControlName="dataDiNascita">
+              <label>Data di Nascita</label>
+            </div>
+          </div>
+          <div class="mb-3">
+            <div class="form-floating">
+              <input class="form-control" type="number" placeholder="Anno di Immatricolazione"
+                formControlName="annoImmatricolazione">
+              <label>Anno di Immatricolazione</label>
+            </div>
+          </div>
+          <div class="mb-3">
+            <div class="form-floating">
+              <select class="form-select" placeholder="Ateneo" formControlName="ateneo">
+                <option *ngFor="let ateneo of atenei" [value]="ateneo.id">{{ateneo.nomeAteneo}}</option>
+              </select>
+              <label>Ateneo</label>
+            </div>
+          </div>
+          <div class="mb-3">
+            <div class="form-floating">
+              <select class="form-select" placeholder="Corso di studi" formControlName="corsoDiStudi">
+                <option *ngFor="let corso of corsiDiStudi" [value]="corso.id">{{corso.nomeCorso}}</option>
+              </select>
+              <label>Corso di studi</label>
+            </div>
+          </div>
+
+        </form>
+
+        <form [formGroup]="Step2Form" *ngIf="currentStep == 2">
+
+          <div class="mb-3">
+            <div class="form-floating">
+              <input class="form-control" placeholder="Email" formControlName="email">
+              <label for="usernameLabel">Email</label>
+            </div>
+          </div>
+          <div class="mb-3">
+            <div class="input-group">
+
+              <div class="form-floating flex-fill">
+                <input [type]="passVisibility?'text':'password'" class="form-control" formControlName="password">
+                <label for="passwordLabel">Password</label>
+              </div>
+
+              <span (click)="passVisibility=!passVisibility" style="cursor: pointer" class="input-group-text">
+                <i *ngIf="passVisibility" class="bi bi-eye"></i>
+                <i *ngIf="!passVisibility" class="bi bi-eye-slash"></i>
+              </span>
+
+            </div>
+          </div>
+          <div class="mb-3">
+            <div class="input-group">
+
+              <div class="form-floating flex-fill">
+                <input [type]="passVisibility?'text':'password'" class="form-control"
+                  formControlName="confermaPassword">
+                <label for="passwordLabel">Conferma Password</label>
+              </div>
+
+              <span (click)="passVisibility=!passVisibility" style="cursor: pointer" class="input-group-text">
+                <i *ngIf="passVisibility" class="bi bi-eye"></i>
+                <i *ngIf="!passVisibility" class="bi bi-eye-slash"></i>
+              </span>
+
+            </div>
+          </div>
+        </form>
+
+        <div class="form-group">
+          <div class="flex-column w-100">
+
+            <div>
+              <button class="btn btn-link" *ngIf="currentStep == 2" (click)="currentStep = 1">Indietro</button>
+              <button class="btn btn-primary w-100 text-center" *ngIf="currentStep != 2" [disabled]="!Step1Form.valid"
+                (click)="currentStep = 2">Avanti</button>
+              <button class="btn btn-primary w-100 text-center" *ngIf="currentStep == 2" [disabled]="!Step2Form.valid"
+                (click)="Register()">Conferma registrazione</button>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

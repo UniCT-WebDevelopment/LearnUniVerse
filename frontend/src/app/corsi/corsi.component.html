@@ -1,0 +1,233 @@
+<div class="container pt-3">
+
+
+    <div class="small d-flex text-muted" *ngIf="!corso && categoriaSelezionata">
+        <span class="fw-bold me-2">Selezione attuale:</span>
+        <div>{{categoriaSelezionata.nome}}</div>
+        <div *ngIf="materiaSelezionata"><i class="bi bi-chevron-right mx-1"></i>{{materiaSelezionata.nome}}</div>
+        <div *ngIf="tutorSelezionato"><i class="bi bi-chevron-right mx-1"></i>{{tutorSelezionato.nome}}</div>
+        <i class="bi bi-x-circle ms-2" style="cursor: pointer; color: red" (click)="closeAll()"></i>
+    </div>
+
+    <h3 class="mb-3 text-center" *ngIf="!corso && !categoriaSelezionata">Seleziona una categoria</h3>
+    <h3 class="mb-3 text-center" *ngIf="categoriaSelezionata && !materiaSelezionata">Seleziona una materia</h3>
+    <h3 class="mb-3 text-center" *ngIf="materiaSelezionata && !tutorSelezionato">Seleziona un tutor</h3>
+
+    <div class="row g-4" *ngIf="!corso && !categoriaSelezionata">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3" *ngFor="let categoria of categorie">
+            <div class="d-flex border-1 border flex-column align-items-center p-2 rounded-2 bg-light shadow-sm">
+                <div class="fw-bold">
+                    {{categoria.nome}}
+                </div>
+                <div>
+                    <i class="bi bi-book-half" style="color: --bs-primary"></i>
+                    {{categoria.numeroCorsi}}+ corsi
+                </div>
+                <div class="w-100">
+                    <button class="btn btn-outline-primary mt-2 w-100"
+                        (click)="onCategoriaSelect(categoria)">Seleziona</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row g-4" *ngIf="categoriaSelezionata && !materiaSelezionata">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3" *ngFor="let materia of materie">
+            <div class="d-flex border-1 border flex-column align-items-center p-2 rounded-2 bg-light shadow-sm">
+                <div class="fw-bold">
+                    {{materia.nome}}
+                </div>
+                <div>
+                    <i class="bi bi-book-half" style="color: --bs-primary"></i>
+                    {{materia.numeroTutor}}+ tutor
+                </div>
+                <div class="w-100">
+                    <button class="btn btn-outline-primary mt-2 w-100"
+                        (click)="onMateriaSelect(materia)">Seleziona</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row g-4" *ngIf="materiaSelezionata && !tutorSelezionato">
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3" *ngFor="let tutor of tutors">
+            <div class="d-flex border-1 border flex-column align-items-center p-2 rounded-2 bg-light shadow-sm">
+                <div class="mt-4 mb-2">
+                    <i class="bi bi-person-circle"></i>
+                    <span class="fw-bold">
+                        {{tutor.nome}}
+                    </span>
+                    <i class="bi bi-star-fill" style="color: rgb(203, 169, 0)"></i>
+                    <span class="text-body-secondary">
+                        ({{tutor.voto}})
+                    </span>
+                </div>
+                <div>
+                    <i class="bi bi-geo-alt-fill" style="color: red"></i>
+                    {{tutor.universita}}
+                </div>
+                <div class="w-100">
+                    <button class="btn btn-outline-primary mt-2 w-100" (click)="onTutorSelect(tutor)">Seleziona</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div *ngIf="corso">
+
+        <div class="row border-1 border p-2 mt-2 rounded-2 bg-light shadow-sm gy-3">
+            <div class="col-12 text-center mt-2">
+                <h3>{{corso.utente?.nome}} {{corso.utente?.cognome}}</h3>
+                <p>{{corso.materia?.nome}}</p>
+            </div>
+            <div class="d-flex justify-content-center" *ngIf="iAmTheTutor">
+                <button class="btn btn-secondary" (click)="onModificaCorsoClick()">
+                    <i class="bi bi-pencil"></i>
+                    Modifica corso
+                </button>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="m-lg-3 me-lg-1 p-3 border-1 border bg-white shadow-sm">
+                    <div *ngFor="let contenuto of contenuti" class="d-flex justify-content-between mb-1">
+                        <span>Lezione {{contenuto.numLezione}} - {{contenuto.argomentoLezione}}</span>
+
+                        <i class="bi bi-play-circle" style="cursor: pointer"
+                            (click)="downloadFile( contenuto.argomentoLezione , corso.id)"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="m-lg-3 ms-lg-1 p-3 border-1 border bg-white shadow-sm">
+
+                    <!-- <ng-container *ngIf="openChat === false">
+                        <form [formGroup]="userForm" (ngSubmit)="submitForm()" autocomplete="off">
+                            <h3>Choose your name</h3>
+                            <div>
+                                <input formControlName="name" type="text" class="form-control" placeholder="name">
+                                <label for="name">Name</label>
+                            </div>
+
+                            <div class="form-floating" *ngIf="apiErrorMessages.length > 0">
+                                <ul class="text-danger">
+                                    <li *ngFor="let error of apiErrorMessages">
+                                        {{error}}
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                            <div class="d-grid mt-4 px-4">
+                                <button class="btn btn-warning" type="submit">submit</button>
+
+                            </div>
+                        </form>
+                    </ng-container> -->
+
+                    <ng-container *ngIf="openChat === true">
+                        <!-- <div class="row">
+                            <div class="col">
+                                <div class="d-grid">
+                                    <button class="btn btn-primary btn-block" type="button" (click)="backToHome()">Back
+                                        to home</button>
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <div class="row mt-3">
+                            <!-- <div class="col">
+                                <div class="card border-secondary mb-3">
+                                    <div class="card-header h3 text-muted text-center"> Users</div>
+                                    <div class="card-body" style="min-height: 555px;">
+                                        <div class="row mt-1" *ngFor="let user of  chatService.onlineUsers">
+                                            <div class="col">
+                                                <div class="d-grid">
+                                                    <button type="button" class="btn card-text btn-block"
+                                                        [ngClass]="{'btn-success' : user === chatService.myName, 'btn-dark' : user !== chatService.myName}"
+                                                        (dblclick)="openPrivateChat(user)"
+                                                        [disabled]=" user === chatService.myName">
+                                                        {{user}}
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div> -->
+
+                            <div class="col">
+                                <div class="card border-secondary">
+                                    <div class="card-header h3 text-muted text-center">Chat del corso</div>
+
+                                    <button *ngIf="iAmTheTutor"  type="button" class="btn card-text btn-block btn-dark"
+                                  
+                                    (click)="openPrivateChats()"
+                                    >
+                                    Vai alle chat con gli studenti!
+                                </button>
+
+
+                                    <button *ngIf="!iAmTheTutor"  type="button" class="btn card-text btn-block btn-dark"
+                                  
+                                    (click)="openPrivateChat(corso.utente?.nome + ' ' +corso.utente?.cognome)"
+                                    >
+                                    Qualcosa non ti è chiaro? Scrivi al prof!
+                                </button>
+
+                                    <div #corsiScrollChat style="overflow-y: auto; height: 500px; background-color: #eae6df;">
+                                        <div class="d-flex p-1" *ngFor="let message of messages" [class.justify-content-end]="message.from == chatService.myName">
+                                            <div class="px-3 py-1 rounded-4 bg-white d-inline-block" style="max-width: 80%" [class.my-text-color]="message.from == chatService.myName">
+                                                <div *ngIf="message.idCorso == corso.id" class="text-primary small">{{message.from}}</div>
+                                                <span *ngIf="message.idCorso == corso.id" class="ml-1">{{message.content}}</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="card-footer">
+                                        <form #messageForm="ngForm" (ngSubmit)="sendMessage()" autocomplete="off">
+                                            <div class="row">
+                                                <div class="col-9">
+                                                    <input type="text" [(ngModel)]="content" name="content" required
+                                                        class="form-control" placeholder="Messaggio">
+                                                </div>
+
+                                                <div class="col-3">
+                                                    <div class="d-grid">
+                                                        <button [disabled]="!messageForm.valid"
+                                                            class="btn btn-secondary btn-block" type="submit">Invia</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </ng-container>
+                    <dx-popup  [showTitle]="false" title="Information" [dragEnabled]="false"
+                        [hideOnOutsideClick]="true" [showCloseButton]="false" container=".dx-viewport"
+                        [(visible)]="popupVisible">
+                        <div *dxTemplate="let data of 'content'">
+                                
+                            <app-private-chat [toUser]="toUser" [idCorso]="corso.id"></app-private-chat>
+
+                        </div>
+                        </dx-popup>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</div>

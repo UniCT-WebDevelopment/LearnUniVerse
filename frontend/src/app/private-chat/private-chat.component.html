@@ -1,0 +1,49 @@
+<div class="modal-header">
+     
+</div>
+<div class="modal-body">
+    <div class="card border-secondary">
+        <div class=" card-header h3 text-muted text-center">Tutor - {{toUser}}</div>
+        <div class="card-body">
+            <!-- <div style="overflow-y: auto; height: 320px;">
+                <p class="card-text" *ngFor="let message of chatService.privateMessages">
+                    <span class="text-primary">{{message.from}}: </span>
+                    <span *ngIf="message.content != 'CALL'" class="ml-1">{{message.content}}</span>
+                    <span *ngIf="message.content == 'CALL'"
+                    class="ml-1"><button style="    border: none;
+                    background-color: white;
+                    text-decoration: underline;" (click)="openCall()">Vai alla CALL!</button></span>
+                </p>
+            </div> -->
+            <div #corsiScrollPrivateChat style="overflow-y: auto; height: 320px; background-color: #eae6df;">
+                <div class="d-flex p-1" *ngFor="let message of chatService.privateMessages" [class.justify-content-end]="message.from == chatService.myName">
+                    <div class="px-3 py-1 rounded-4 bg-white d-inline-block" style="max-width: 80%" [class.my-text-color]="message.from == chatService.myName">
+                        <div class="text-primary small">{{message.from}}</div>
+                        <span *ngIf="message.content != 'CALL'" class="ml-1">{{message.content}}</span>
+                        <span *ngIf="message.content == 'CALL'" class="ml-1">
+                            <button style="border: none; background-color: white; text-decoration: underline;" (click)="openCall()">Vai alla CALL!</button>
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="card-footer">
+            <form #messageForm="ngForm" (ngSubmit)="sendMessage()" autocomplete="off">
+                <div class="row">
+                    <div class="col-9">
+                        <input type="text" [(ngModel)]="content" name="content" required class="form-control" placeholder="Messaggio">
+                    </div>
+
+                    <div class="col-3">
+                        <div class="d-grid">
+                            <button [disabled]="!messageForm.valid" class="btn btn-secondary btn-block"
+                                type="submit">Invia</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

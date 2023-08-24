@@ -1,0 +1,67 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-6 col-sm-10 col-12">
+      <div class="card card-container">
+        <p class="m-0 w-100 mb-3 text-center">
+          <img src="../../assets/MainLogo.png" width="180">
+        </p>
+        <h3 class="pb-2">Accedi</h3>
+        <form (ngSubmit)="Accedi()" [formGroup]="PasswordForm" >
+
+          <div class="mb-3">
+            <div class="form-floating">
+              <input
+                class="form-control"
+                id="usernameLabel"
+                placeholder="Username"
+                formControlName="username"
+              >
+              <label for="usernameLabel">Username</label>
+            </div>
+          </div>
+          <div class="mb-3">
+            <div class="input-group">
+
+              <div class="form-floating flex-fill">
+                <input
+                  [type]="passVisibility?'text':'password'"
+                  class="form-control"
+                  id="passwordLabel"
+                  formControlName="password"
+                >
+                <label for="passwordLabel">Password</label>
+              </div>
+
+              <span *ngIf="passVisibility" (click)="passVisibility=!passVisibility" style="cursor: pointer" class="input-group-text">
+                <i class="bi bi-eye"></i>
+              </span>
+              <span *ngIf="!passVisibility" (click)="passVisibility=!passVisibility" style="cursor: pointer" class="input-group-text">
+                <i class="bi bi-eye-slash"></i>
+              </span>
+
+            </div>
+
+          </div>
+
+
+
+          <div class="form-group">
+            <div class="flex-column w-100 text-center">
+
+              <div >
+                <button class="btn btn-primary w-100" [disabled]="!PasswordForm.valid">Accedi</button>
+                <a class="btn btn-link" routerLink="/signup">Registrati</a>
+              </div>
+
+            </div>
+
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
